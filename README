@@ -1,0 +1,7 @@
+Pixies is a particle simulator based on the Lennard_jones Potential http://en.wikipedia.org/wiki/Lennard-Jones_potential
+
+It has a dependency on GTK2, you can compile it with;
+
+gcc `pkg-config --cflags --libs gtk+-2.0` pixies.c
+
+I began writing it when I was 14.
